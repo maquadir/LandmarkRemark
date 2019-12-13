@@ -28,3 +28,8 @@ The app follows the MVVM architecture with the following concepts utilized in th
 # Technology Stack
 
 # Time estimation
+
+# Support
+### Reference Material
+- Udacity 
+- StackOverflow
