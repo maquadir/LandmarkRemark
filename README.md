@@ -1,7 +1,7 @@
 # LandmarkRemark Android App
 A simple android mobile application that allows users to save location based notes on a map. These notes can be displayed on the map where they were saved and viewed by the user that created the note as well as other users of the application.
 
-# App Design & Architecture
+# Application Design & Architecture
 The native Android application is written in Kotlin using Android studio using no third-party (non-Google) libraries.Google Firebase cloustore has been used as the backend-as-a-service provider.
 
 The app follows the MVVM architecture with the following concepts utilized in the application
@@ -19,4 +19,12 @@ The app follows the MVVM architecture with the following concepts utilized in th
   - Sign out
 - LocationViewModel - The view model class to bind the view with UI controller(MapsActivity) data
 
-![alt text](http://url/to/img.png)
+# Application Flow
+
+
+
+# Implicit Requirements
+
+# Technology Stack
+
+# Time estimation
