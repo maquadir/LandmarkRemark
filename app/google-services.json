@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "931386196589",
+    "firebase_url": "https://landmarkremark-28625.firebaseio.com",
+    "project_id": "landmarkremark-28625",
+    "storage_bucket": "landmarkremark-28625.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931386196589:android:296882dcf0fb29cbdd3564",
+        "android_client_info": {
+          "package_name": "com.example.landmarkremark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931386196589-o9v3cuh54fkrpi59ffqjue7dcoo1u91m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_DIZzmHsAoB5TMc2L9kVKD48b9WaALeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931386196589-o9v3cuh54fkrpi59ffqjue7dcoo1u91m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
