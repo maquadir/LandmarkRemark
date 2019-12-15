@@ -47,6 +47,27 @@ The app follows the MVVM architecture with the following concepts utilized in th
 <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860412-84ed4b80-1f75-11ea-9bf4-9cbb2279baae.jpg">   <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860421-9c2c3900-1f75-11ea-8df2-aad3dcd7183d.jpg"> <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860438-c67df680-1f75-11ea-95d6-d763ab263ca5.jpg"> <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860452-eb726980-1f75-11ea-93f9-4a7414951781.jpg"> <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860460-047b1a80-1f76-11ea-914c-d744d0b5a61a.jpg">
 <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860466-1f4d8f00-1f76-11ea-950d-47a648fc9f97.jpg">
 
+# Testing Process
+- Debug using an emulator or usb device by opening the project in Android Studio
+- Build an apk and load it onto a device
+- Install the apk included in the zipped project files (not included in git repo)
+
+On application start, it will ask for permission to access your current location:
+
+If the location permission is denied, the application can still be be used. The user can see landmarks posted by other users, and search them. However, they will not be able to find their own location, but will be able to create any new landmarks on the map.
+when the application is started and location permission is approved, then the user is automatically pointed to its current location. The user can create landmark at their current location and any other location on the map. The primary way to create a new landmark is to click any location on the map which will display a dialog to insert a note on that location. 
+
+Searching:
+
+Click the search icon to display a editable search bar. On typing a valid note text or username the user is automatically pointed to its location with the marker icon changing to red along with a dialog to display the number of found occurences.
+
+Changing username:
+
+Click the Sign out button n the top-right to sign out and enter the application with a different username.
+Type in a new username and sign in.Any new landmarks you make will have that new username associated with it and it will also display all other markers created by other users
+
+
+
 # Technology Stack
 - Android Studio using Kotlin
 - Firebase Cloudstore
@@ -54,8 +75,9 @@ The app follows the MVVM architecture with the following concepts utilized in th
 - MVVM Android Architecture
 
 # Limitations
-- Firebase database access only till 5th Jan 2020 - Currently it allows anyone on the internet to view, edit, and delete all data in your Firestore database. It is useful for getting started, but it is configured to expire after 30 days because it leaves your app open to attackers. At that time, all client requests to your Firestore database will be denied.Make sure to write security rules for your app before that time, or else your app will lose access to your Firestore database.
+- Firebase database access only till 5th Jan 2020 - After that time, all client requests to your Firestore database will be denied.
 - The map view activity of the application resets everytime a new note is added which means the activity is recreated. We can come up with an alternative to avoid this.
+- A user cannot edit note of a marker that belongs to another user. A user can only edit notes that were created by him/her.
 
 
 # Time estimation
