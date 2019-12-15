@@ -5,7 +5,7 @@ A simple android mobile application that allows users to save location based not
 The native Android application is written in Kotlin using Android studio using no third-party (non-Google) libraries.Google Firebase cloustore has been used as the backend-as-a-service provider.
 
 The app follows the MVVM architecture with the following concepts utilized in the application
-- Data binding
+- Data binding(very minimal)
 - View Model
 
 <img width="330" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860286-0d6aec80-1f74-11ea-9ce8-dd78a41b8238.png">
