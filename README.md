@@ -90,7 +90,7 @@ Type in a new username and sign in.Any new landmarks you make will have that new
 
 # Time estimation
 Total time 12-24 hours which is more than the recommended due to my obsession with design,covering multiple implicit requirements and testing towards making a good build.
-- Brainstorming the problem - 3hrs
+- Brainstorming the problem - 1hr
 - Initial map - 0.5hr
 - Current location + permissions - 0.5hr
 - Testing and optimizing - 0.5hr
@@ -98,17 +98,17 @@ Total time 12-24 hours which is more than the recommended due to my obsession wi
 - Testing and optimizing - 0.5hr
 - Adding Firebase - 1hr
 - Testing and optimizing - 0.5hr
-- Searching landmarks - 2hr
+- Searching landmarks - 2hrs
 - Testing and optimizing - 1hr
-- Redesigning the app - 2hr
+- Redesigning the app - 2hrs
 - Testing and optimizing - 0.5hr
 - Changing landmark icons to differentiate between searched and existing - 1 hr
-- Testing and optimizing - 1hr
+- Testing and optimizing - 0.5hr
 - Embedding MVVM in code - 1 hr
 - Testing and optimizing - 0.5hr
 - Custom dialogs for notes, marker info windows - 1 hr
-- Testing and optimizing - 1hr
-- Final testing, code cleanup, documentation - 3 hr
+- Testing and optimizing - 0.5hr
+- Final testing, code cleanup, documentation - 2 hrs
 
 # Support
 ### Reference Material
