@@ -15,6 +15,11 @@ The app follows the MVVM architecture with the following concepts utilized in th
 - SignInActivity - To sign in the app using a unique "username"
 - MapsActivity - The main screen of the app displaying the map and its controls
 - LocationViewModel - The view model class to bind the view with UI controller(MapsActivity) data
+### Others
+- Google Maps API for android
+- Custom fonts
+- Firebase & Google play services libraries
+
 
 # Explicit Requirements
 - Display current location on the map
