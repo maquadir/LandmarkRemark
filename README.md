@@ -54,7 +54,8 @@ The app follows the MVVM architecture with the following concepts utilized in th
 <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860466-1f4d8f00-1f76-11ea-950d-47a648fc9f97.jpg">
 
 # Testing Process
-- Debug using an emulator or usb device by opening the project in Android Studio
+- Run using an emulator or usb device after opening the project in Android Studio
+ - please clean and re-build project if any issues arise 
 - Build an apk and load it onto a device
 - Install the apk included in the zipped project files (not included in git repo)
 
