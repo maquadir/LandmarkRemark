@@ -64,6 +64,7 @@ If the location permission is denied, the application can still be be used. The 
 
 ### Adding a landmark with a note
 When the application is started and location permission is approved, then the user is automatically pointed to its current location. The user can create landmark at their current location and any other location on the map. The primary way to create a new landmark is to click any location on the map which will display a dialog to insert a note on that location.After entering a note and clicking ok a landmark with a note is created for that user which can be looked up by clicking on the marker. On clicking cancel, the marker is not added to the map. The marker is represented by a black location icon attached below.
+
 <img width="120" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70861971-cf78c300-1f89-11ea-8453-d93a74c53d48.png">
 
 ### Searching
