@@ -16,13 +16,6 @@ The app follows the MVVM architecture with the following concepts utilized in th
 - MapsActivity - The main screen of the app displaying the map and its controls
 - LocationViewModel - The view model class to bind the view with UI controller(MapsActivity) data
 
-# Application Flow
-<img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860312-73577400-1f74-11ea-85bc-93c75cb4187f.jpg">   <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860327-98e47d80-1f74-11ea-8702-e689cd6495db.jpg">   <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860337-ae59a780-1f74-11ea-84ae-b134223d2777.jpg">   <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860387-35a71b00-1f75-11ea-876d-7ff4cd3dc336.jpg">
-<img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860412-84ed4b80-1f75-11ea-9bf4-9cbb2279baae.jpg">   <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860421-9c2c3900-1f75-11ea-8df2-aad3dcd7183d.jpg"> <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860438-c67df680-1f75-11ea-95d6-d763ab263ca5.jpg"> <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860452-eb726980-1f75-11ea-93f9-4a7414951781.jpg"> <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860460-047b1a80-1f76-11ea-914c-d744d0b5a61a.jpg">
-<img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860466-1f4d8f00-1f76-11ea-950d-47a648fc9f97.jpg">
-
-
-
 # Explicit Requirements
 - Display current location on the map
 - Save a short note at the current location
@@ -48,6 +41,11 @@ The app follows the MVVM architecture with the following concepts utilized in th
 - On searching based on a note or username, display a toast message of the number of occurences of the search result.
 - The searched result displays the corresponding map markers highlighted by a standard red location icon.
 - On clearing the search bar the map markers are reset back to the black location icons.
+
+# Application Flow
+<img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860312-73577400-1f74-11ea-85bc-93c75cb4187f.jpg">   <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860327-98e47d80-1f74-11ea-8702-e689cd6495db.jpg">   <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860337-ae59a780-1f74-11ea-84ae-b134223d2777.jpg">   <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860387-35a71b00-1f75-11ea-876d-7ff4cd3dc336.jpg">
+<img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860412-84ed4b80-1f75-11ea-9bf4-9cbb2279baae.jpg">   <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860421-9c2c3900-1f75-11ea-8df2-aad3dcd7183d.jpg"> <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860438-c67df680-1f75-11ea-95d6-d763ab263ca5.jpg"> <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860452-eb726980-1f75-11ea-93f9-4a7414951781.jpg"> <img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860460-047b1a80-1f76-11ea-914c-d744d0b5a61a.jpg">
+<img width="250" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70860466-1f4d8f00-1f76-11ea-950d-47a648fc9f97.jpg">
 
 # Technology Stack
 - Android Studio using Kotlin
