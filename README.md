@@ -53,14 +53,17 @@ The app follows the MVVM architecture with the following concepts utilized in th
 - Install the apk included in the zipped project files (not included in git repo)
 
 ### Application start
-On application start, it will ask for a username to sign in. If no username is entered the application will not open , instead it displays a dialog informing to enter a username.Once signed in using a username the maps screen open asking for permission to access your current location:
+On application start, it will ask for a username to sign in. If no username is entered the application will not open , instead it displays a dialog informing to enter a username(check app flow).Once signed in using a username the maps screen open asking for permission to access your current location:
 If the location permission is denied, the application can still be be used. The user can see landmarks posted by other users, and search them. However, they will not be able to find their own location, but will be able to create any new landmarks on the map.
 
 ### Adding a landmark with a note
-When the application is started and location permission is approved, then the user is automatically pointed to its current location. The user can create landmark at their current location and any other location on the map. The primary way to create a new landmark is to click any location on the map which will display a dialog to insert a note on that location.After entering a note and clicking ok a landmark with a note is created for that user which can be looked up by clicking on the marker. On clicking cancel, the marker is not added to the map.
+When the application is started and location permission is approved, then the user is automatically pointed to its current location. The user can create landmark at their current location and any other location on the map. The primary way to create a new landmark is to click any location on the map which will display a dialog to insert a note on that location.After entering a note and clicking ok a landmark with a note is created for that user which can be looked up by clicking on the marker. On clicking cancel, the marker is not added to the map. The marker is represented by a black location icon attached below.
+<img width="120" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70861971-cf78c300-1f89-11ea-8453-d93a74c53d48.png">
 
 ### Searching
-Click the search icon to display a editable search bar. On typing a valid note text or username the user is automatically pointed to its location with the marker icon changing to red along with a dialog to display the number of found occurences.
+Click the search icon to display a editable search bar. On typing a valid note text or username the user is automatically pointed to its location with the marker icon changing to red(attached below) along with a dialog to display the number of found occurences.
+
+<img width="120" alt="architecture" src="https://user-images.githubusercontent.com/19331629/70862004-4c0ba180-1f8a-11ea-97be-0e1ef708aa24.png">
 
 ### Changing username
 Click the Sign out button on the top-right corner to sign out and enter the application with a different username.
