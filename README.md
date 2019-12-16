@@ -61,7 +61,7 @@ The app follows the MVVM architecture with the following concepts utilized in th
 
 ### Application start
 On application start, it will ask for a username to sign in. If no username is entered the application will not open , instead it displays a dialog informing to enter a username(check app flow).Once signed in using a username the maps screen open asking for permission to access your current location:
-If the location permission is denied, the application can still be be used. The user can see landmarks posted by other users, and search them. However, they will not be able to find their own location, but will be able to create any new landmarks on the map.
+If the location permission is denied, the application can still be be used. A blue dot indicating the current location is displayed on location permission access. The user can see landmarks posted by other users, and search them. However, they will not be able to find their own location, but will be able to create any new landmarks on the map.
 
 ### Adding a landmark with a note
 When the application is started and location permission is approved, then the user is automatically pointed to its current location. The user can create landmark at their current location and any other location on the map. The primary way to create a new landmark is to click any location on the map which will display a dialog to insert a note on that location.After entering a note and clicking ok a landmark with a note is created for that user which can be looked up by clicking on the marker. On clicking cancel, the marker is not added to the map. The marker is represented by a black location icon attached below.
